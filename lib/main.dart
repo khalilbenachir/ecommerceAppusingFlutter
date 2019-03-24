@@ -3,6 +3,7 @@ import 'package:carousel_pro/carousel_pro.dart';
 
 
 import 'package:e_commerce_app/components/horizontal_listview.dart';
+import 'package:e_commerce_app/components/products.dart';
 
 void main() => runApp(MaterialApp(
   debugShowCheckedModeBanner: false,
@@ -137,7 +138,15 @@ class _HomePageState extends State<HomePage> {
             padding: EdgeInsets.all(10),
             child: Text('Categories'),
           ),
-          HorizontalListView()
+          HorizontalListView(),
+          Padding(
+            padding: EdgeInsets.all(10),
+            child: Text("Recent products"),
+          ),
+          Container(
+            height: 320,
+            child: Product(),
+          )
         ],
       ),
     );

@@ -56,6 +56,17 @@ flutter:
       - assets/cats/jeans.png
       - assets/cats/shoe.png
       - assets/cats/tshirt.png
+      - assets/products/blazer1.jpeg
+      - assets/products/blazer2.jpeg
+      - assets/products/dress1.jpeg
+      - assets/products/dress2.jpeg
+      - assets/products/hills1.jpeg
+      - assets/products/hills2.jpeg
+      - assets/products/pants1.jpg
+      - assets/products/pants2.jpeg
+      - assets/products/shoe1.jpg
+      - assets/products/skt1.jpeg
+      - assets/products/skt2.jpeg
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
